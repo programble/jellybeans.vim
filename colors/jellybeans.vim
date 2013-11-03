@@ -509,6 +509,9 @@ call s:X("SignifySignAdd","437019","","","DarkGreen","")
 call s:X("SignifySignDelete","700009","","","DarkRed","")
 call s:X("SignifySignChange","2b5b77","","","DarkBlue","")
 
+" CtrlP
+hi! link CtrlPMatch Search
+
 if !exists("g:jellybeans_background_color_256")
   let g:jellybeans_background_color_256=233
 end
