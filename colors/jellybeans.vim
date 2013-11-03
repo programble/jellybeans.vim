@@ -554,6 +554,3 @@ delf s:grey_color
 delf s:grey_level
 delf s:grey_number
 " }}}
-
-" No tildas
-hi nontext ctermfg=bg guifg=bg cterm=NONE gui=NONE
