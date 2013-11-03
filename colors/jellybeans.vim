@@ -340,7 +340,7 @@ call s:X("WildMenu","f0a0c0","302028","","Magenta","")
 call s:X("Folded","a0a8b0","384048","italic",s:termBlack,"")
 call s:X("FoldColumn","535D66","1f1f1f","","",s:termBlack)
 call s:X("SignColumn",g:jellybeans_background_color,g:jellybeans_background_color,"","",s:termBlack)
-call s:X("ColorColumn","","000000","","",s:termBlack)
+call s:X("ColorColumn","","1c1c1c","","",s:termBlack)
 
 call s:X("Title","70b950","","bold","Green","")
 
