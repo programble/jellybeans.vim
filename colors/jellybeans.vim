@@ -516,6 +516,7 @@ if !s:low_color
   hi SignColumn ctermbg=233
   hi CursorColumn ctermbg=234
   hi CursorLine ctermbg=234
+  hi ColorColumn ctermbg=234
   exec "hi NonText ctermbg=".g:jellybeans_background_color_256
   exec "hi LineNr ctermbg=".g:jellybeans_background_color_256
   hi DiffText ctermfg=81
