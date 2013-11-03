@@ -499,6 +499,11 @@ call s:X("IndentGuidesEven","","1b1b1b","","","")
 hi! link TagListFileName Directory
 call s:X("PreciseJumpTarget","B9ED67","405026","","White","Green")
 
+" Signify
+call s:X("SignifySignAdd","437019","","","DarkGreen","")
+call s:X("SignifySignDelete","700009","","","DarkRed","")
+call s:X("SignifySignChange","2b5b77","","","DarkBlue","")
+
 if !exists("g:jellybeans_background_color_256")
   let g:jellybeans_background_color_256=233
 end
