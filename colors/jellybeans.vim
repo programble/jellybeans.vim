@@ -375,10 +375,14 @@ call s:X("Question","65C254","","","Green","")
 
 " Spell Checking
 
-call s:X("SpellBad","","902020","underline","","DarkRed")
-call s:X("SpellCap","","0000df","underline","","Blue")
-call s:X("SpellRare","","540063","underline","","DarkMagenta")
-call s:X("SpellLocal","","2D7067","underline","","Green")
+hi! SpellBad guisp=#902020
+hi! SpellCap guisp=#0000df
+hi! SpellRare guisp=#540063
+hi! SpellLocal guisp=#2d7067
+call s:X("SpellBad","","","undercurl","","DarkRed")
+call s:X("SpellCap","","","undercurl","","Blue")
+call s:X("SpellRare","","","undercurl","","DarkMagenta")
+call s:X("SpellLocal","","","undercurl","","Green")
 
 " Diff
 
