@@ -450,6 +450,7 @@ hi! link erlangNode Identifier
 
 hi! link javaScriptValue Constant
 hi! link javaScriptRegexpString rubyRegexp
+hi! link javaScriptBraces Normal
 
 " CoffeeScript
 
