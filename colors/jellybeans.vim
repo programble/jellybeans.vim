@@ -481,6 +481,10 @@ hi! link objcMessageName Identifier
 
 hi! link vimOper Normal
 
+" HTML
+
+hi! link htmlTag Identifier
+
 " Debugger.vim
 
 call s:X("DbgCurrent","DEEBFE","345FA8","","White","DarkBlue")
