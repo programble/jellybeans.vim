@@ -339,7 +339,8 @@ call s:X("WildMenu","f0a0c0","302028","","Magenta","")
 
 call s:X("Folded","a0a8b0","384048","italic",s:termBlack,"")
 call s:X("FoldColumn","535D66","1f1f1f","","",s:termBlack)
-call s:X("SignColumn","777777","333333","","",s:termBlack)
+" call s:X("SignColumn","777777","333333","","",s:termBlack)
+call s:X("SignColumn",g:jellybeans_background_color,g:jellybeans_background_color,"","",s:termBlack)
 call s:X("ColorColumn","","000000","","",s:termBlack)
 
 call s:X("Title","70b950","","bold","Green","")
@@ -503,7 +504,8 @@ if !s:low_color
   hi StatusLineNC ctermbg=235
   hi Folded ctermbg=236
   hi FoldColumn ctermbg=234
-  hi SignColumn ctermbg=236
+  " hi SignColumn ctermbg=236
+  hi SignColumn ctermbg=233
   hi CursorColumn ctermbg=234
   hi CursorLine ctermbg=234
   hi SpecialKey ctermbg=234
@@ -512,7 +514,7 @@ if !s:low_color
   hi DiffText ctermfg=81
   exec "hi Normal ctermbg=".g:jellybeans_background_color_256
   hi DbgBreakPt ctermbg=53
-  hi IndentGuidesOdd ctermbg=235
+  hi IndentGuidesOdd ctermbg=234
   hi IndentGuidesEven ctermbg=234
 endif
 
