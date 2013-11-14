@@ -448,6 +448,7 @@ hi! link erlangNode Identifier
 
 " JavaScript
 
+hi! link javaScript Normal
 hi! link javaScriptValue Constant
 hi! link javaScriptRegexpString rubyRegexp
 hi! link javaScriptBraces Normal
